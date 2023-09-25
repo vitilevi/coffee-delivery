@@ -9,6 +9,10 @@ export const CartTriggerWrapper = styled.button`
   outline: none;
   border: none;
 
+  &:hover {
+    cursor: pointer;
+  }
+
   svg {
     fill: ${(props) => props.theme['yellow-dark']};
   }
