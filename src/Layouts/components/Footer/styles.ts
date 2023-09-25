@@ -18,9 +18,16 @@ export const FooterWrapper = styled.footer`
     margin-top: 4px;
     display: flex;
     gap: 8px;
-  }
 
-  svg {
-    fill: ${(props) => props.theme.purple};
+    a {
+      height: 22px;
+      svg {
+        fill: ${(props) => props.theme.purple};
+
+        &:hover {
+          fill: ${(props) => props.theme['purple-dark']};
+        }
+      }
+    }
   }
 `;
