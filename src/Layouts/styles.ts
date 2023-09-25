@@ -4,6 +4,9 @@ import { breakpoints } from '../utils/breakpoints';
 export const PageWrapper = styled.div`
   margin: 0 10px;
   width: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 
   @media ${breakpoints.md} {
     margin: 0 auto;
@@ -20,5 +23,3 @@ export const PageWrapper = styled.div`
     max-width: 65%;
   }
 `;
-
-export const FooterWrapper = styled.footer``;

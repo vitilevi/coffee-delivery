@@ -1,10 +1,15 @@
 import styled from 'styled-components';
+import { breakpoints } from '../../../utils/breakpoints';
 
 export const HeaderWrapper = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 32px 0;
+  padding: 16px 0;
+
+  @media ${breakpoints.md} {
+    padding: 32px 0;
+  }
 `;
 
 export const CartTriggerWrapper = styled.div`

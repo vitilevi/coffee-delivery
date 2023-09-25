@@ -1,3 +1,10 @@
+import { HomeWrapper } from './styles';
+
 export function Home() {
-  return <div className='text'>Home</div>;
+  return (
+    <HomeWrapper>
+      <section>Hero</section>
+      <section>Coffees</section>
+    </HomeWrapper>
+  );
 }
