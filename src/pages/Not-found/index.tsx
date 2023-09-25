@@ -1,5 +1,1 @@
-type Props = {};
-
-export function NotFound({}: Props) {
-  return <div>NotFound</div>;
-}
+export { NotFound } from './NotFound';

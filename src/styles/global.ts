@@ -8,8 +8,60 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: '';
     font-family: 'Roboto', sans-serif;
     background-color: ${(props) => props.theme.background}
+  }
+
+  .title {
+    font-family: 'Baloo 2', cursive;
+    line-height: 130%;
+    color: ${(props) => props.theme['base-title']};
+
+    &-xl {
+      font-size: 48px;
+      font-weight: 800;
+    }
+
+    &-l {
+      font-size: 32px;
+      font-weight: 800;
+    }
+
+    &-m {
+      font-size: 24px;
+      font-weight: 800;
+    }
+
+    &-s {
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    &-xs {
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+
+  .text {
+    line-height: 130%;
+    color: ${(props) => props.theme['base-text']};
+
+    &-l {
+      font-size: 20px;
+    }
+
+    &-m {
+      font-size: 16px;
+    }
+
+    &-s {
+      font-size: 14px;
+    }
+
+    &-xs {
+      font-size: 12px;
+      font-weight: 700;
+    }
   }
 `;

@@ -1,5 +1,1 @@
-type ThankYouProps = {};
-
-export function ThankYou({}: ThankYouProps) {
-  return <div>Thank-you</div>;
-}
+export { ThankYou } from './ThankYou';

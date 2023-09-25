@@ -3,21 +3,27 @@ import { Home } from './pages/Home';
 import { Cart } from './pages/Cart';
 import { ThankYou } from './pages/Thank-you';
 import { NotFound } from './pages/Not-found';
+import { DefaultLayout } from './Layouts/default';
 
 export const router = createBrowserRouter(
   [
     {
-      path: '/',
-      element: <Home />,
-      errorElement: <NotFound />
-    },
-    {
-      path: '/cart',
-      element: <Cart />
-    },
-    {
-      path: '/thank-you',
-      element: <ThankYou />
+      element: <DefaultLayout />,
+      children: [
+        {
+          path: '/',
+          element: <Home />,
+          errorElement: <NotFound />
+        },
+        {
+          path: '/cart',
+          element: <Cart />
+        },
+        {
+          path: '/thank-you',
+          element: <ThankYou />
+        }
+      ]
     }
   ],
   {
