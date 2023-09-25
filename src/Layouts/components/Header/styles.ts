@@ -7,7 +7,7 @@ export const HeaderWrapper = styled.header`
   margin: 32px 0;
 `;
 
-export const CartWrapper = styled.div`
+export const CartTriggerWrapper = styled.div`
   display: flex;
   align-items: center;
   gap: 12px;
