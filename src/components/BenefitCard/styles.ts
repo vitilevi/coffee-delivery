@@ -4,7 +4,7 @@ type BenefitCardContainerProps = {
   size: number;
 };
 
-export const BenefitCardContainer = styled.p<BenefitCardContainerProps>`
+export const BenefitCardContainer = styled.div<BenefitCardContainerProps>`
   display: flex;
   align-items: center;
   gap: 12px;

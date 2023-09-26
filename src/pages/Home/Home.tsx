@@ -1,12 +1,12 @@
 import { HomeWrapper } from './styles';
 import { PresentationSection } from './components/PresentationSection';
-import { CoffeesSection } from './components/CoffeesSection';
+import { CoffeeSection } from './components/CoffeeSection';
 
 export function Home() {
   return (
     <HomeWrapper>
       <PresentationSection />
-      <CoffeesSection />
+      <CoffeeSection />
     </HomeWrapper>
   );
 }
