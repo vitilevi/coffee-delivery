@@ -1,6 +1,6 @@
 import { MapPin } from '@phosphor-icons/react';
 import { HeaderWrapper } from './styles';
-import { CoffeeDeliveryIcon } from '../../../components/Icons/CoffeeDeliveryIcon';
+import { CoffeeDeliveryIcon } from '../../../components/ui/Icons/CoffeeDeliveryIcon';
 import { Link, useNavigate } from 'react-router-dom';
 import { CartTrigger } from '../../../components/CartTrigger';
 

@@ -8,18 +8,19 @@ export const PageWrapper = styled.div`
   flex-direction: column;
   min-height: 100vh;
 
-  @media ${breakpoints.md} {
+  @media ${breakpoints.sm} {
     margin: 0 auto;
     max-width: 90%;
   }
 
   @media ${breakpoints.lg} {
-    margin: 0 auto;
-    max-width: 80%;
+    max-width: 85%;
+  }
+
+  @media ${breakpoints.dt} {
+    max-width: 1120px;
   }
 
   @media ${breakpoints.xl} {
-    margin: 0 auto;
-    max-width: 65%;
   }
 `;

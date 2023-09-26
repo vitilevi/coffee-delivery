@@ -1,3 +1,6 @@
 import styled from 'styled-components';
 
-export const HomeWrapper = styled.main``;
+export const HomeWrapper = styled.main`
+  display: flex;
+  flex-direction: column;
+`;
