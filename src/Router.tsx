@@ -3,7 +3,7 @@ import { Home } from './pages/Home';
 import { Checkout } from './pages/Checkout';
 import { ThankYou } from './pages/Thank-you';
 import { NotFound } from './pages/Not-found';
-import { DefaultLayout } from './Layouts/default';
+import { DefaultLayout } from './layouts/default';
 
 export const router = createBrowserRouter(
   [
