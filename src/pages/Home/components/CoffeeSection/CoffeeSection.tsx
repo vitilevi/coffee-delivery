@@ -8,7 +8,7 @@ export function CoffeeSection() {
       <h2 className='title title-l'>Nossos cafés</h2>
       <CoffeesDisplay>
         {coffeeList.map((coffee) => (
-          <CoffeeCard coffee={coffee} />
+          <CoffeeCard key={coffee.id} coffee={coffee} />
         ))}
       </CoffeesDisplay>
     </CoffeeSectionWrapper>

@@ -2,10 +2,11 @@ import { Minus, Plus, ShoppingCartSimple } from '@phosphor-icons/react';
 import { Coffee } from '../../data/coffees';
 import { CoffeeCardContainer, QuantityWrapper } from './styles';
 import { Pill } from '../ui/Pill';
-import { useState } from 'react';
+import { Key, useState } from 'react';
 
 type CoffeeCardProps = {
   coffee: Coffee;
+  key: Key;
 };
 
 export function CoffeeCard({
@@ -29,7 +30,7 @@ export function CoffeeCard({
   const plusIsDisabled = counter === 9;
 
   return (
-    <CoffeeCardContainer key={id}>
+    <CoffeeCardContainer>
       <div className='image'>
         <img src={image} />
       </div>
