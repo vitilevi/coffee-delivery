@@ -9,7 +9,7 @@ export function Header() {
   const cartItemsLength = 3;
 
   function handleRedirectToCart() {
-    navigate('/cart');
+    navigate('/checkout');
   }
 
   return (
