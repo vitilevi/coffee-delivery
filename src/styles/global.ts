@@ -12,6 +12,17 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${(props) => props.theme.background}
   }
 
+  button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+
+    &:disabled {
+      cursor: not-allowed;
+    }
+  }
+
   .title {
     font-family: 'Baloo 2', cursive;
     line-height: 130%;
