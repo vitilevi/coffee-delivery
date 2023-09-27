@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
 import { Home } from './pages/Home';
-import { Cart } from './pages/Cart';
+import { Checkout } from './pages/Checkout';
 import { ThankYou } from './pages/Thank-you';
 import { NotFound } from './pages/Not-found';
 import { DefaultLayout } from './Layouts/default';
@@ -16,8 +16,8 @@ export const router = createBrowserRouter(
           errorElement: <NotFound />
         },
         {
-          path: '/cart',
-          element: <Cart />
+          path: '/checkout',
+          element: <Checkout />
         },
         {
           path: '/thank-you',
