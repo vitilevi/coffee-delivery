@@ -39,7 +39,7 @@ export const PresentationSectionWrapper = styled.section`
 export const CoffeeDeliveryPresentation = styled.div`
   flex-basis: 90%;
 
-  h2 {
+  h1 {
     margin-bottom: 16px;
   }
 
