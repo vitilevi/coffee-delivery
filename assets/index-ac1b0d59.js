@@ -454,7 +454,7 @@ Error generating stack: `+o.message+`
       color: ${e=>e.theme.white};
     }
   }
-`;function Vg({counter:e=0,size:t=22,...n}){return k.jsxs(Hg,{...n,children:[e>0&&k.jsx("div",{className:"counter",children:k.jsx("span",{className:"text-xs",children:e})}),k.jsx(Cs,{size:t,weight:"fill"})]})}function Dg(){const e=Td(),t=3;function n(){e("/cart")}return k.jsxs(Og,{children:[k.jsx("div",{className:"header-logo",children:k.jsx(im,{to:"/",children:k.jsx(Ng,{})})}),k.jsxs("div",{className:"right-container",children:[k.jsxs("div",{className:"location-box",children:[k.jsx(Ss,{size:22,weight:"fill"}),k.jsx("span",{className:"text-s",children:"São Carlos, SP"})]}),k.jsx(Vg,{onClick:n,counter:t})]})]})}const Tg=Ge.footer`
+`;function Vg({counter:e=0,size:t=22,...n}){return k.jsxs(Hg,{...n,children:[e>0&&k.jsx("div",{className:"counter",children:k.jsx("span",{className:"text-xs",children:e})}),k.jsx(Cs,{size:t,weight:"fill"})]})}function Dg(){const e=Td(),t=3;function n(){e("/checkout")}return k.jsxs(Og,{children:[k.jsx("div",{className:"header-logo",children:k.jsx(im,{to:"/",children:k.jsx(Ng,{})})}),k.jsxs("div",{className:"right-container",children:[k.jsxs("div",{className:"location-box",children:[k.jsx(Ss,{size:22,weight:"fill"}),k.jsx("span",{className:"text-s",children:"São Carlos, SP"})]}),k.jsx(Vg,{onClick:n,counter:t})]})]})}const Tg=Ge.footer`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
