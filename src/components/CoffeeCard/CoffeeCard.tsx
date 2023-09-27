@@ -9,9 +9,7 @@ type CoffeeCardProps = {
   key: Key;
 };
 
-export function CoffeeCard({
-  coffee: { id, image, tags, name, description, price }
-}: CoffeeCardProps) {
+export function CoffeeCard({ coffee: { image, tags, name, description, price } }: CoffeeCardProps) {
   const [counter, setCounter] = useState(1);
 
   function handleStepUp() {
